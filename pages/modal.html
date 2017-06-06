@@ -1,0 +1,30 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../dist/styles/commons/modal.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cs-modal">
+        <div class="cs-dialog">
+            <div class="cs-dialog-top">
+                <div class="cs-dialog-title">MyModal</div>
+                <div class="cs-dialog-close">×</div>
+            </div>
+            <div class="cs-dialog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum repudiandae possimus perspiciatis vero blanditiis hic sequi quisquam sunt molestias tempora itaque vitae magnam quod, maxime doloremque non dignissimos saepe!</div>
+            <div class="cs-dialog-confirm">
+                <span href="javascript:;" class="cs-dialog-cancel">取消</span>
+                <span href="javascript:;" class="cs-dialog-sure">确认</span>
+            </div>
+        </div>
+    </div>
+    <div id="cs-trigger-modal">btn</div>
+
+    <script src="../dist/scripts/librays/jquery-1.11.1.min.js"></script>
+    <script src="../src/scripts/components/modal.js"></script>
+    <script>
+        var cs_modal = new cs_modal(function() {
+            alert("1")
+        })
+    </script>
+</body>
+
+</html>
